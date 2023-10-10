@@ -16,10 +16,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'credit-card-management-project'`, () => {
+  it(`should have as title 'card-management'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('credit-card-management-project');
+    expect(app.title).toEqual('card-management');
   });
 
 });
